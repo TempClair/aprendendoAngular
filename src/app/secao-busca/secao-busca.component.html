@@ -2,6 +2,12 @@
   <h2>Esta seção tem um input e um botão aninhados</h2>
   <app-input-numerico></app-input-numerico>
   <app-botao-busca></app-botao-busca>
+  <table>
+    <app-item-linha 
+      *ngFor="let dados of containerDadosList"
+        [containerDados]="dados">
+    </app-item-linha>
+  </table>
 </section>
 
 
