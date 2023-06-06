@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { InputNumericoComponent } from '../input-numerico/input-numerico.component';
 import { BotaoBuscaComponent } from '../botao-busca/botao-busca.component';
 import { ContainerDados } from '../container-dados';
+import { ItemLinhaComponent } from '../item-linha/item-linha.component';
 
 @Component({
   selector: 'app-secao-busca',
